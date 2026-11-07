@@ -1,0 +1,9 @@
+[server]
+# 监听所有网卡，兼容本地运行和 Streamlit Cloud 部署。
+address = "0.0.0.0"
+port = 8501
+headless = true
+
+[browser]
+# 避免服务器启动时尝试在后台环境自动弹浏览器。
+gatherUsageStats = false
